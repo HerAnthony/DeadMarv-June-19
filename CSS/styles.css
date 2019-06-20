@@ -132,8 +132,8 @@ footer {
 	width: 28%;
 	border: 3px solid #000000;
 	float: left;
-	padding: 25px 20px;
-	margin-left: 20px;
+	padding: 20px 20px;
+	margin-left: 15px;
 	overflow: hidden;
 }
 .col-img {
@@ -143,13 +143,16 @@ footer {
 	margin: auto;
 }
 .col-audio {
+	height: 150px;
+	width: 300px;
 	display: block;
 	margin: auto;
 }
 .col-video {
+	height: 300px;
+	width: 300px;
 	display: block;
-	width: 100%;
-	padding: 20px;
+	margin: auto;
 }
 
 
