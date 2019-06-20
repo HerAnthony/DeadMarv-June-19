@@ -1,0 +1,165 @@
+body {
+	font-family: 'Permanent Marker', cursive;
+	width: 100%;
+	margin: auto;
+	background-color: #555555;
+ }
+.nav-bar {
+	position: auto;
+}
+.logo {
+	position: relative;
+}
+.nav-list {
+	float: right;
+	text-align: left;
+	background-color:#000000;
+	border-radius: 5px;
+}
+.list-item {
+	float: left;
+	/*clear:left;*/
+	list-style-type: none;
+	border: 2px solid blue;
+	border-radius: 5px;
+	margin-right: none;
+}
+.list-item a {
+	color: #50ff00;
+	background-color: none;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: none;
+	font-size: 20px;
+}
+.list-item a:hover {
+	color: #ff0000;
+}
+.banner {
+	position: top;
+	width: 100%;
+}
+.banner h1 {
+	margin-top: 38px;
+}
+.banner-text {
+	background-color: none;
+	height: 100px;
+	width: 600px;
+	color: red;
+	position: auto;
+	bottom: auto;
+	left: 45%;
+	text-align: center;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 25px;
+	text-shadow: yellow;
+	box-shadow: gray;
+	border-radius: 8px;
+}
+.banner-img {
+	background-size: cover;
+	position: top;
+	margin: auto;
+}
+.main {
+	position: auto;
+}
+.main h1 {
+	margin-top: auto;
+}
+.main-text {
+	background-color: none;
+	height: 100px;
+	width: 600px;
+	color: red;
+	position: auto;
+	top: auto;
+	left: 45%;
+	text-align: center;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 25px;
+	text-shadow: yellow;
+	box-shadow: gray;
+	border-radius: 8px;
+}
+.main-section {
+	height: 500px;
+	width:100%;
+	position: absolute;
+	top: 900px;
+}
+.main-img {
+	display: block;
+	margin: auto;
+}
+.col {
+	height: 450px;
+	width: 45%;
+	border: 2px solid blue;
+	float: center;
+	margin-left: 12px;
+	clear: right;
+}
+footer {
+	background-color: #8a3ab9
+}
+.input, .social, .copy {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.fa-faceook-square {
+	color: #3b5998;
+	font-size: 5em;
+}
+.fa-camera {
+	color: #1c81a0;
+	font-size: 5em;
+}
+/**end of home style**/
+
+/**about styles**/
+.container {
+	height: 600px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.columns {
+	width: 28%;
+	border: 3px solid #000000;
+	float: left;
+	padding: 25px 20px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+.col-img {
+	height: 300px;
+	width: 300px;
+	display: block;
+	margin: auto;
+}
+.col-audio {
+	display: block;
+	margin: auto;
+}
+.col-video {
+	display: block;
+	width: 100%;
+	padding: 20px;
+}
+
+
+/**contact styles**/
+
+.contact-header {
+	background-color: blue;
+	height: 100%;
+	width: 100%;
+}
+.col-contact {
+	float: left;
+}
